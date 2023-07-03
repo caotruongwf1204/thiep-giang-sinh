@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://thuvienvector.com/upload/images/items/photoshop-backdrop-chao-don-giang-sinh-noel-3987.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.text-up {
+    margin-top: 100px;
+}
+
+.container .text-up h1 {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(214, 45, 45);
+}
+.container .text-up p {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(104, 13, 13);
+    animation: text-up 3s linear infinite;
+}
+.item1 i {
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    animation: item1 15s infinite linear;
+}
+.item2 i {
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    animation: item2 12s infinite ease;
+}
+.item3 i {
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    animation: item3 16s infinite ease-in;
+}
+.item4 i {
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    animation: item4 16s infinite ease-in-out;
+}
+.item5 i {
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    animation: item5 11s infinite ease-out;
+}
+.item6 i {
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    animation: item6 10s infinite linear;
+}
+.item7 i {
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    animation: item7 12s infinite ease-out;
+}
+.item8 i {
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    animation: item8 15s infinite ease;
+}
+.item9 i {
+    color: #fff;
+    position: absolute;
+    top: -18px;
+    animation: item9 13s infinite ease-in-out;
+}
+
+
+
+@keyframes item1 {
+    to {
+        transform: translate(80px, 700px);
+    }
+    from {
+        transform: translateX(100px);
+    }
+}
+@keyframes item2 {
+    to {
+        transform: translate(300px, 700px);
+    }
+    from {
+        transform: translateX(600px);
+    }
+}
+@keyframes item3 {
+    to {
+        transform: translate(500px, 700px);
+    }
+    from {
+        transform: translateX(800px);
+    }
+}
+@keyframes item4 {
+    to {
+        transform: translate(900px, 700px);
+    }
+    from {
+        transform: translateX(600px);
+    }
+}
+@keyframes item5 {
+    to {
+        transform: translate(700px, 700px);
+    }
+    from {
+        transform: translateX(600px);
+    }
+}
+@keyframes item6 {
+    to {
+        transform: translate(800px, 700px);
+    }
+    from {
+        transform: translateX(900px);
+    }
+}
+@keyframes item7 {
+    to {
+        transform: translate(1000px, 700px);
+    }
+    from {
+        transform: translateX(700px);
+    }
+}
+@keyframes item8 {
+    to {
+        transform: translate(1400px, 700px);
+    }
+    from {
+        transform: translateX(1000px);
+    }
+}
+@keyframes item9 {
+    to {
+        transform: translate(1300px, 700px);
+    }
+    from {
+        transform: translateX(1400px);
+    }
+}
+@keyframes text-up {
+    to{
+
+    }
+    from {
+        transform: scale(1.5);
+    }
+}
